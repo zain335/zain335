@@ -53,6 +53,26 @@ I am a creative🎡, time punctual👩‍🎓, dedicated🎯, goal-oriented indi
     <a href="#"><img alt="Wordpress" src="https://img.shields.io/badge/Wordpress-21759B?logo=wordpress&logoColor=white"></a>
 </p>
 
+### 🔗 Blockchains
+
+<p>
+   <!-- Ethereum -->
+<a href="https://ethereum.org/" target="_blank"><img alt="Ethereum" src="https://img.shields.io/badge/Ethereum%20-%23646DFF.svg?logo=ethereum&logoColor=white"></a>
+<!-- Polygon -->
+<a href="https://polygon.technology/" target="_blank"><img alt="Polygon" src="https://img.shields.io/badge/Polygon%20-%238C28F5.svg?logo=polygon&logoColor=white"></a>
+<!-- Immutable X -->
+<a href="https://immutablex.io/" target="_blank"><img alt="Immutable X" src="https://img.shields.io/badge/Immutable%20X%20-%231DA1F2.svg?logo=immutable-x&logoColor=white"></a>
+<!-- Base Chain -->
+<!-- Add the official documentation link for the specific "Base Chain" if available -->
+<!-- Avalanche -->
+<a href="https://www.avalabs.org/" target="_blank"><img alt="Avalanche" src="https://img.shields.io/badge/Avalanche%20-%231F4C9F.svg?logo=avalanche&logoColor=white"></a>
+<!-- SKALE -->
+<a href="https://skale.network/" target="_blank"><img alt="SKALE" src="https://img.shields.io/badge/SKALE%20-%233031C7.svg?logo=skale&logoColor=white"></a>
+<!-- BASE -->
+<a href="https://skale.network/" target="_blank"><img alt="BASE" src="https://img.shields.io/badge/BASE%20-%23777BB4.svg?logo=base&logoColor=white"></a>
+
+</p>
+
 ### 🗄️ Databases and Cloud Hosting
 
 <p>
@@ -107,16 +127,22 @@ I am a creative🎡, time punctual👩‍🎓, dedicated🎯, goal-oriented indi
 -->
 <!-- https://github.com/sisodiya2421 -->
 
-<!-- ## 🙋‍♀️ Let's Connect -->
-<!--
-<p align="center">
-	<a href="https://yashitanamdeo.github.io/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Portfolio"/></a>
-	<a href="https://github.com/yashitanamdeo" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
-	<a href="https://www.linkedin.com/in/yashitanamdeo/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
-	<a href="https://www.facebook.com/yashitanamdeo/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png" alt="Facebook"/></a>
-	<a href="https://www.instagram.com/yashitanamdeo/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
-	<a href="mailto:yashita.namdeo2000@gmail.com" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
-</p>
+## 🙋‍♀️ Let's Connect
 
-[![@zain's Holopin board](https://holopin.me/yashitanamdeo)](https://holopin.io/@yashitanamdeo)
-->>
+<p align="center">
+	<a href="https://gist.github.com/zain335">
+		<img src="https://img.shields.io/badge/-Gists-000?style=for-the-badge&logo=Github&logoColor=white" />
+	</a>
+	<a href="https://stackoverflow.com/users/17730432/zain-335?tab=profile">
+		<img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" />
+	</a>
+	<a href="mailto:mzainaliofficial@gmail.com">
+		<img src="https://img.shields.io/badge/protonmail-%238B89CC.svg?&style=for-the-badge&logo=protonmail&logoColor=white" />
+	</a>
+	<a href="https://www.linkedin.com/in/muhammad-zain-ali-989598226/">
+		<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+	</a>	
+</p>
+<!--
+[![@zain's Holopin board](https://holopin.me/zain335)](https://holopin.io/@zain335)
+-->
