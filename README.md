@@ -63,7 +63,7 @@ Python, enabling me to seamlessly develop and deploy smart contracts, Websites a
 <!-- Vue.js -->
 <a href="https://vuejs.org/v2/guide/" target="_blank"><img alt="Vue.js" src="https://img.shields.io/badge/Vue.js%20-%234FC08D.svg?logo=vue.js&logoColor=white"></a>
 <!-- Electron.js -->
-<a href="https://www.electronjs.org/docs" target="_blank"><img alt="Electron.js" src="https://img.shields.io/badge/Electron.js%20-%2378D6F7.svg?logo=electron&logoColor=white"></a>
+<a href="https://www.electronjs.org/docs" target="_blank"><img alt="Electron.js" src="https://img.shields.io/badge/Electron.js%20-%23163A5F.svg?logo=electron&logoColor=white"></a>
 <!-- Truffle -->
 <a href="https://www.trufflesuite.com/docs/truffle/overview" target="_blank"><img alt="Truffle" src="https://img.shields.io/badge/Truffle%20-%236F4C9B.svg?logo=truffle&logoColor=white"></a>
 <!-- Bootstrap -->
