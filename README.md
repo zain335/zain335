@@ -11,9 +11,11 @@ Hi, I'm Muhammad Zain Ali!
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Full+Stack+Web3+Developer;Blockchain+|+Computer+Engineer;Data+Science%20|%20Blockchain%20|%20ML%20Enthusiastic;&center=true&width=580&height=45"></a>
 </p>
 <hr/>
-<!-- <samp>
-I am a creative🎡, time punctual👩‍🎓, dedicated🎯, goal-oriented individual👩‍💻 with decent moral values and ethics🙇‍♀️ along with a high-energy level🤹‍♀️, honed communication skills👐, strong organizational skills👮‍♀️, and meticulous attention🕵️‍♀️ to detail.
-</samp> -->
+<samp>
+As a highly adept Full Stack Wen3 Developer, I bring over 4 years of rich experience in software R&D to the realm of
+Ethereum, ZKPs, Polygon and Web Development. My journey includes a mastery of Solidity, Java, JavaScript, Typescript and
+Python, enabling me to seamlessly develop and deploy smart contracts, Websites and REST APIs.
+</samp> 
 
 <!-- ## 🔥 Streak Stats -->
 
