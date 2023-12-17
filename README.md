@@ -127,7 +127,7 @@ I am a creative🎡, time punctual👩‍🎓, dedicated🎯, goal-oriented indi
 -->
 <!-- https://github.com/sisodiya2421 -->
 
-## 🙋‍♀️ Let's Connect
+## 🤝 Let's Connect
 
 <p align="center">
 	<a href="https://gist.github.com/zain335">
