@@ -12,7 +12,7 @@ Hi, I'm Muhammad Zain Ali!
 </p>
 <hr/>
 <samp>
-As a highly adept Full Stack Wen3 Developer, I bring over 4 years of rich experience in software R&D to the realm of
+As a highly adept Full Stack Web3 Developer, I bring over 4 years of rich experience in software R&D to the realm of
 Ethereum, ZKPs, Polygon and Web Development. My journey includes a mastery of Solidity, Java, JavaScript, Typescript and
 Python, enabling me to seamlessly develop and deploy smart contracts, Websites and REST APIs.
 </samp> 
