@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="214" viewBox="0 0 490 214" fill="none">
+  <defs>
+    <!-- Card gradient background -->
+    <linearGradient id="bg_chaingpt" x1="0" y1="0" x2="490" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    
+    <!-- Accent gradient for border glow -->
+    <linearGradient id="border_chaingpt" x1="0" y1="0" x2="490" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    
+    <!-- Top glow effect -->
+    <radialGradient id="glow_chaingpt" cx="50%" cy="0%" r="60%" fx="50%" fy="0%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Scanline pattern -->
+    <pattern id="scanlines_chaingpt" patternUnits="userSpaceOnUse" width="490" height="4">
+      <rect width="490" height="2" fill="white" fill-opacity="0.008"/>
+    </pattern>
+    
+    <clipPath id="clip_chaingpt">
+      <rect width="490" height="214" rx="12"/>
+    </clipPath>
+  </defs>
+  
+  <g clip-path="url(#clip_chaingpt)">
+    <!-- Base card -->
+    <rect width="490" height="214" rx="12" fill="url(#bg_chaingpt)"/>
+    
+    <!-- Subtle scanlines overlay -->
+    <rect width="490" height="214" fill="url(#scanlines_chaingpt)"/>
+    
+    <!-- Top glow -->
+    <rect width="490" height="214" fill="url(#glow_chaingpt)"/>
+    
+    <!-- Accent border - top line -->
+    <rect x="0" y="0" width="490" height="2" fill="url(#border_chaingpt)" opacity="0.8"/>
+    
+    <!-- Subtle border -->
+    <rect x="0.5" y="0.5" width="489" height="213" rx="12" 
+          stroke="#06B6D4" stroke-opacity="0.15" stroke-width="1" fill="none"/>
+    
+    <!-- Corner accents -->
+    <rect x="0" y="0" width="3" height="20" rx="1.5" fill="#06B6D4" opacity="0.5"/>
+    <rect x="487" y="0" width="3" height="20" rx="1.5" fill="#3B82F6" opacity="0.5"/>
+    
+    <!-- Project name -->
+    <text x="32" y="42" font-family="'Inter', 'Segoe UI', sans-serif" font-size="20" fill="#F1F5F9" font-weight="700" letter-spacing="-0.5">ChainGPT</text>
+    
+    <!-- Status dot + Tagline -->
+    <circle cx="38" cy="66" r="4" fill="#06B6D4" opacity="0.9"/>
+    <circle cx="38" cy="66" r="4" fill="#06B6D4" opacity="0.3">
+      <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="50" y="70" font-family="'SF Mono', 'Fira Code', monospace" font-size="12" fill="#06B6D4" font-weight="500" letter-spacing="0.5">Multi-chain Infrastructure</text>
+    
+    <!-- Decorative line -->
+    <line x1="32" y1="86" x2="458" y2="86" stroke="#06B6D4" stroke-opacity="0.1" stroke-width="1"/>
+    
+    <!-- Description -->
+    <text x="32" y="112" font-family="'Inter', 'Segoe UI', sans-serif" font-size="13" fill="#94A3B8" letter-spacing="0.2">Migrated to NestJS, integrated Solana blockchain, and developed</text>
+    <text x="32" y="132" font-family="'Inter', 'Segoe UI', sans-serif" font-size="13" fill="#94A3B8" letter-spacing="0.2">Jetton swapping pools on TON in FunC.</text>
+
+    <!-- Tech stack pills -->
+    <rect x="32" y="164" width="41" height="24" rx="12" 
+          fill="#06B6D4" fill-opacity="0.12" stroke="#06B6D4" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="52" y="180" font-family="'SF Mono', 'Fira Code', monospace" 
+          font-size="11" fill="#06B6D4" text-anchor="middle" font-weight="500">TON</text>
+    <rect x="81" y="164" width="48" height="24" rx="12" 
+          fill="#06B6D4" fill-opacity="0.12" stroke="#06B6D4" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="105" y="180" font-family="'SF Mono', 'Fira Code', monospace" 
+          font-size="11" fill="#06B6D4" text-anchor="middle" font-weight="500">FunC</text>
+    <rect x="137" y="164" width="48" height="24" rx="12" 
+          fill="#06B6D4" fill-opacity="0.12" stroke="#06B6D4" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="161" y="180" font-family="'SF Mono', 'Fira Code', monospace" 
+          font-size="11" fill="#06B6D4" text-anchor="middle" font-weight="500">Rust</text>
+    <rect x="193" y="164" width="62" height="24" rx="12" 
+          fill="#06B6D4" fill-opacity="0.12" stroke="#06B6D4" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="224" y="180" font-family="'SF Mono', 'Fira Code', monospace" 
+          font-size="11" fill="#06B6D4" text-anchor="middle" font-weight="500">Solana</text>
+    <rect x="263" y="164" width="62" height="24" rx="12" 
+          fill="#06B6D4" fill-opacity="0.12" stroke="#06B6D4" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="294" y="180" font-family="'SF Mono', 'Fira Code', monospace" 
+          font-size="11" fill="#06B6D4" text-anchor="middle" font-weight="500">NestJS</text>
+    <rect x="333" y="164" width="76" height="24" rx="12" 
+          fill="#06B6D4" fill-opacity="0.12" stroke="#06B6D4" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="371" y="180" font-family="'SF Mono', 'Fira Code', monospace" 
+          font-size="11" fill="#06B6D4" text-anchor="middle" font-weight="500">Metaplex</text>
+  </g>
+</svg>

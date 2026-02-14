@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="214" viewBox="0 0 490 214" fill="none">
+  <defs>
+    <!-- Card gradient background -->
+    <linearGradient id="bg_pkichain" x1="0" y1="0" x2="490" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    
+    <!-- Accent gradient for border glow -->
+    <linearGradient id="border_pkichain" x1="0" y1="0" x2="490" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    
+    <!-- Top glow effect -->
+    <radialGradient id="glow_pkichain" cx="50%" cy="0%" r="60%" fx="50%" fy="0%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Scanline pattern -->
+    <pattern id="scanlines_pkichain" patternUnits="userSpaceOnUse" width="490" height="4">
+      <rect width="490" height="2" fill="white" fill-opacity="0.008"/>
+    </pattern>
+    
+    <clipPath id="clip_pkichain">
+      <rect width="490" height="214" rx="12"/>
+    </clipPath>
+  </defs>
+  
+  <g clip-path="url(#clip_pkichain)">
+    <!-- Base card -->
+    <rect width="490" height="214" rx="12" fill="url(#bg_pkichain)"/>
+    
+    <!-- Subtle scanlines overlay -->
+    <rect width="490" height="214" fill="url(#scanlines_pkichain)"/>
+    
+    <!-- Top glow -->
+    <rect width="490" height="214" fill="url(#glow_pkichain)"/>
+    
+    <!-- Accent border - top line -->
+    <rect x="0" y="0" width="490" height="2" fill="url(#border_pkichain)" opacity="0.8"/>
+    
+    <!-- Subtle border -->
+    <rect x="0.5" y="0.5" width="489" height="213" rx="12" 
+          stroke="#EC4899" stroke-opacity="0.15" stroke-width="1" fill="none"/>
+    
+    <!-- Corner accents -->
+    <rect x="0" y="0" width="3" height="20" rx="1.5" fill="#EC4899" opacity="0.5"/>
+    <rect x="487" y="0" width="3" height="20" rx="1.5" fill="#8B5CF6" opacity="0.5"/>
+    
+    <!-- Project name -->
+    <text x="32" y="42" font-family="'Inter', 'Segoe UI', sans-serif" font-size="20" fill="#F1F5F9" font-weight="700" letter-spacing="-0.5">PKIChain</text>
+    
+    <!-- Status dot + Tagline -->
+    <circle cx="38" cy="66" r="4" fill="#EC4899" opacity="0.9"/>
+    <circle cx="38" cy="66" r="4" fill="#EC4899" opacity="0.3">
+      <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="50" y="70" font-family="'SF Mono', 'Fira Code', monospace" font-size="12" fill="#EC4899" font-weight="500" letter-spacing="0.5">Decentralized SSL Certificates</text>
+    
+    <!-- Decorative line -->
+    <line x1="32" y1="86" x2="458" y2="86" stroke="#EC4899" stroke-opacity="0.1" stroke-width="1"/>
+    
+    <!-- Description -->
+    <text x="32" y="112" font-family="'Inter', 'Segoe UI', sans-serif" font-size="13" fill="#94A3B8" letter-spacing="0.2">DApp for on-chain domain validation certificate issuance with</text>
+    <text x="32" y="132" font-family="'Inter', 'Segoe UI', sans-serif" font-size="13" fill="#94A3B8" letter-spacing="0.2">formally verified smart contracts.</text>
+
+    <!-- Tech stack pills -->
+    <rect x="32" y="164" width="76" height="24" rx="12" 
+          fill="#EC4899" fill-opacity="0.12" stroke="#EC4899" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="70" y="180" font-family="'SF Mono', 'Fira Code', monospace" 
+          font-size="11" fill="#EC4899" text-anchor="middle" font-weight="500">Solidity</text>
+    <rect x="116" y="164" width="62" height="24" rx="12" 
+          fill="#EC4899" fill-opacity="0.12" stroke="#EC4899" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="147" y="180" font-family="'SF Mono', 'Fira Code', monospace" 
+          font-size="11" fill="#EC4899" text-anchor="middle" font-weight="500">Vue.js</text>
+    <rect x="186" y="164" width="90" height="24" rx="12" 
+          fill="#EC4899" fill-opacity="0.12" stroke="#EC4899" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="231" y="180" font-family="'SF Mono', 'Fira Code', monospace" 
+          font-size="11" fill="#EC4899" text-anchor="middle" font-weight="500">Express.js</text>
+    <rect x="284" y="164" width="55" height="24" rx="12" 
+          fill="#EC4899" fill-opacity="0.12" stroke="#EC4899" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="311" y="180" font-family="'SF Mono', 'Fira Code', monospace" 
+          font-size="11" fill="#EC4899" text-anchor="middle" font-weight="500">MySQL</text>
+  </g>
+</svg>
