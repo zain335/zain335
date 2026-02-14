@@ -107,74 +107,47 @@ Currently focused on **DeFi integrations**, **autonomous AI agents**, and **real
 
 ---
 
-### Featured Projects
+<h3 align="center">Featured Projects</h3>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p align="center">
+<a href="https://altar.market">
+  <img src="./assets/project-altar.svg" width="400" alt="altar.market" />
+</a>
+&nbsp;
+<a href="#">
+  <img src="./assets/project-harvey.svg" width="400" alt="Illuminatibot Harvey" />
+</a>
+</p>
 
-**[🏛️ altar.market](https://altar.market)** — *DeFi Execution Layer*
-<br/>Backend DeFi integration platform connecting Aave, Uniswap, 1inch, and more with AI-powered analytics via Telegram.
-<br/>`TypeScript` `NestJS` `Flowise AI` `viem` `LangChain`
+<p align="center">
+<a href="https://roboticslayer.io">
+  <img src="./assets/project-robotics.svg" width="400" alt="Robotics Layer" />
+</a>
+&nbsp;
+<a href="https://www.rajaarani.com">
+  <img src="./assets/project-rajaarani.svg" width="400" alt="RajaaRani" />
+</a>
+</p>
 
-</td>
-<td width="50%" valign="top">
+<p align="center">
+<a href="https://chaingpt.org">
+  <img src="./assets/project-chaingpt.svg" width="400" alt="ChainGPT" />
+</a>
+&nbsp;
+<a href="https://t.me/interstellar_buy_bot">
+  <img src="./assets/project-interstellar.svg" width="400" alt="Interstellar Buy Bot" />
+</a>
+</p>
 
-**[🤖 Illuminatibot (Harvey)](https://x.com)** — *Autonomous Solana Agent*
-<br/>AI social agent with 2.3M+ followers. Parses Solana mempool in real time, detects whale movements, and triggers on-chain actions.
-<br/>`ElizaOS` `Solana` `TypeScript` `Real-time Streaming`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[🦾 Robotics Layer](https://roboticslayer.io)** — *Decentralized AI Platform*
-<br/>Production Web3 platform enabling 100K+ contributors with passwordless auth, Prisma ORM, and enterprise SEO.
-<br/>`Next.js 14` `TypeScript` `Tailwind CSS` `NextAuth.js` `PostgreSQL`
-
-</td>
-<td width="50%" valign="top">
-
-**[🎮 Sheertopia](https://sheertopia.io)** — *Metaverse NFT Platform*
-<br/>Full-stack NFT platform with wallet integration, OpenSea API, and on-chain minting via ERC721/A, ERC1155, and DAO contracts.
-<br/>`Solidity` `Next.js` `Hardhat` `Wagmi` `PostgreSQL`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[🔗 ChainGPT](https://chaingpt.org)** — *Multi-chain Infrastructure*
-<br/>Migrated to NestJS, integrated Solana, and developed Jetton swapping pools on TON and token swap contracts on Solana.
-<br/>`TON` `FunC` `Rust` `Solana` `NestJS` `Metaplex`
-
-</td>
-<td width="50%" valign="top">
-
-**[📡 Interstellar Buy Bot](https://t.me/interstellar_buy_bot)** — *TON Trading Alerts*
-<br/>Real-time Telegram bot for token purchase alerts on TON with trending token algorithms and on-chain payment verification.
-<br/>`Node.js` `TypeScript` `TON API` `Redis` `PostgreSQL`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[🔐 PKIChain](https://pkichain.com)** — *Decentralized SSL Certificates*
-<br/>DApp for on-chain domain validation certificate issuance with formally verified smart contracts.
-<br/>`Solidity` `Vue.js` `Express.js` `MySQL`
-
-</td>
-<td width="50%" valign="top">
-
-**[💍 RajaaRani](https://www.rajaarani.com)** — *Matrimonial App Backend*
-<br/>Microservices backend with Dockerized deployment on AWS EC2 and Elasticsearch integration.
-<br/>`Node.js` `Docker` `AWS EC2` `Elasticsearch` `PostgreSQL`
-
-</td>
-</tr>
-</table>
+<p align="center">
+<a href="https://pkichain.com">
+  <img src="./assets/project-pkichain.svg" width="400" alt="PKIChain" />
+</a>
+&nbsp;
+<a href="https://sheertopia.io">
+  <img src="./assets/project-sheertopia.svg" width="400" alt="Sheertopia" />
+</a>
+</p>
 
 ---
 
