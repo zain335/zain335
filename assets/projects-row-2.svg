@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="864" height="270" viewBox="0 0 864 270" fill="none">
+
+    <!-- ═══ Robotics Layer ═══ -->
+    <defs>
+      <linearGradient id="bg_robotics" x1="0" y1="52" x2="420" y2="250" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#0C1425"/>
+        <stop offset="100%" stop-color="#111D32"/>
+      </linearGradient>
+      <linearGradient id="br_robotics" x1="0" y1="52" x2="420" y2="52" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#10B981"/>
+        <stop offset="100%" stop-color="#06B6D4"/>
+      </linearGradient>
+      <radialGradient id="gl_robotics" cx="50%" cy="0%" r="70%">
+        <stop offset="0%" stop-color="#10B981" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="sh_robotics" x="-5%" y="-5%" width="110%" height="115%">
+        <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.4"/>
+      </filter>
+    </defs>
+    
+    <g filter="url(#sh_robotics)">
+      <!-- Card -->
+      <rect x="0" y="52" width="420" height="198" rx="14" fill="url(#bg_robotics)"/>
+      <rect x="0" y="52" width="420" height="198" rx="14" fill="url(#gl_robotics)"/>
+      
+      <!-- Top accent bar -->
+      <rect x="0" y="52" width="420" height="3" rx="1.5" fill="url(#br_robotics)" opacity="0.9"/>
+      
+      <!-- Border -->
+      <rect x="0.5" y="52.5" width="419" height="197" rx="14" 
+            stroke="#10B981" stroke-opacity="0.1" stroke-width="0.8" fill="none"/>
+      
+      <!-- Left edge accent -->
+      <rect x="0" y="55" width="2.5" height="24" rx="1.25" fill="#10B981" opacity="0.4"/>
+      
+      <!-- Name -->
+      <text x="24" y="86" font-family="'Inter', 'Segoe UI', sans-serif" font-size="18" 
+            fill="#EDF2F7" font-weight="700" letter-spacing="-0.3">Robotics Layer</text>
+      
+      <!-- Pulsing dot + tagline -->
+      <circle cx="30" cy="108" r="3.5" fill="#10B981" opacity="0.85"/>
+      <circle cx="30" cy="108" r="3.5" fill="#10B981" opacity="0.25">
+        <animate attributeName="r" values="3.5;6.5;3.5" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;0;0.25" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="42" y="112" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" 
+            fill="#10B981" font-weight="500" letter-spacing="0.4">Decentralized AI Platform · 100K+ Contributors</text>
+      
+      <!-- Separator -->
+      <line x1="24" y1="124" x2="396" y2="124" 
+            stroke="#10B981" stroke-opacity="0.08" stroke-width="0.8"/>
+      
+      <!-- Description -->
+    <text x="24" y="144" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">Production Web3 platform with passwordless auth,</text>
+    <text x="24" y="162" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">atomic UI patterns, and enterprise SEO.</text>
+
+      <!-- Tech pills -->
+    <rect x="24.0" y="192" width="92" height="22" rx="11" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="70" y="207" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#10B981" text-anchor="middle" font-weight="500">Next.js 14</text>
+    <rect x="123.0" y="192" width="92" height="22" rx="11" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="169" y="207" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#10B981" text-anchor="middle" font-weight="500">TypeScript</text>
+    <rect x="222.0" y="192" width="78" height="22" rx="11" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="261" y="207" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#10B981" text-anchor="middle" font-weight="500">Tailwind</text>
+    <rect x="306.6" y="192" width="63" height="22" rx="11" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="338" y="207" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#10B981" text-anchor="middle" font-weight="500">Prisma</text>
+    <rect x="24.0" y="218" width="92" height="22" rx="11" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="70" y="233" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#10B981" text-anchor="middle" font-weight="500">PostgreSQL</text>
+    </g>
+
+
+    <!-- ═══ Sheertopia ═══ -->
+    <defs>
+      <linearGradient id="bg_sheertopia" x1="444" y1="12" x2="864" y2="210" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#0C1425"/>
+        <stop offset="100%" stop-color="#111D32"/>
+      </linearGradient>
+      <linearGradient id="br_sheertopia" x1="444" y1="12" x2="864" y2="12" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#8B5CF6"/>
+        <stop offset="100%" stop-color="#EC4899"/>
+      </linearGradient>
+      <radialGradient id="gl_sheertopia" cx="50%" cy="0%" r="70%">
+        <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="sh_sheertopia" x="-5%" y="-5%" width="110%" height="115%">
+        <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.4"/>
+      </filter>
+    </defs>
+    
+    <g filter="url(#sh_sheertopia)">
+      <!-- Card -->
+      <rect x="444" y="12" width="420" height="198" rx="14" fill="url(#bg_sheertopia)"/>
+      <rect x="444" y="12" width="420" height="198" rx="14" fill="url(#gl_sheertopia)"/>
+      
+      <!-- Top accent bar -->
+      <rect x="444" y="12" width="420" height="3" rx="1.5" fill="url(#br_sheertopia)" opacity="0.9"/>
+      
+      <!-- Border -->
+      <rect x="444.5" y="12.5" width="419" height="197" rx="14" 
+            stroke="#8B5CF6" stroke-opacity="0.1" stroke-width="0.8" fill="none"/>
+      
+      <!-- Left edge accent -->
+      <rect x="444" y="15" width="2.5" height="24" rx="1.25" fill="#8B5CF6" opacity="0.4"/>
+      
+      <!-- Name -->
+      <text x="468" y="46" font-family="'Inter', 'Segoe UI', sans-serif" font-size="18" 
+            fill="#EDF2F7" font-weight="700" letter-spacing="-0.3">Sheertopia</text>
+      
+      <!-- Pulsing dot + tagline -->
+      <circle cx="474" cy="68" r="3.5" fill="#8B5CF6" opacity="0.85"/>
+      <circle cx="474" cy="68" r="3.5" fill="#8B5CF6" opacity="0.25">
+        <animate attributeName="r" values="3.5;6.5;3.5" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;0;0.25" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="486" y="72" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" 
+            fill="#8B5CF6" font-weight="500" letter-spacing="0.4">Metaverse NFT Platform</text>
+      
+      <!-- Separator -->
+      <line x1="468" y1="84" x2="840" y2="84" 
+            stroke="#8B5CF6" stroke-opacity="0.08" stroke-width="0.8"/>
+      
+      <!-- Description -->
+    <text x="468" y="104" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">Full-stack NFT platform with wallet integration,</text>
+    <text x="468" y="122" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">OpenSea API, and on-chain minting via ERC721/A.</text>
+
+      <!-- Tech pills -->
+    <rect x="468.0" y="152" width="78" height="22" rx="11" fill="#8B5CF6" fill-opacity="0.1" stroke="#8B5CF6" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="507" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#8B5CF6" text-anchor="middle" font-weight="500">Solidity</text>
+    <rect x="552.6" y="152" width="70" height="22" rx="11" fill="#8B5CF6" fill-opacity="0.1" stroke="#8B5CF6" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="588" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#8B5CF6" text-anchor="middle" font-weight="500">Next.js</text>
+    <rect x="630.0" y="152" width="70" height="22" rx="11" fill="#8B5CF6" fill-opacity="0.1" stroke="#8B5CF6" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="665" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#8B5CF6" text-anchor="middle" font-weight="500">Hardhat</text>
+    <rect x="707.4" y="152" width="56" height="22" rx="11" fill="#8B5CF6" fill-opacity="0.1" stroke="#8B5CF6" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="735" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#8B5CF6" text-anchor="middle" font-weight="500">Wagmi</text>
+    <rect x="468.0" y="178" width="92" height="22" rx="11" fill="#8B5CF6" fill-opacity="0.1" stroke="#8B5CF6" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="514" y="193" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#8B5CF6" text-anchor="middle" font-weight="500">PostgreSQL</text>
+    </g>
+
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="864" height="262" viewBox="0 0 864 262" fill="none">
+
+    <!-- ═══ altar.market ═══ -->
+    <defs>
+      <linearGradient id="bg_altar" x1="0" y1="12" x2="420" y2="210" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#0C1425"/>
+        <stop offset="100%" stop-color="#111D32"/>
+      </linearGradient>
+      <linearGradient id="br_altar" x1="0" y1="12" x2="420" y2="12" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#3B82F6"/>
+        <stop offset="100%" stop-color="#8B5CF6"/>
+      </linearGradient>
+      <radialGradient id="gl_altar" cx="50%" cy="0%" r="70%">
+        <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="sh_altar" x="-5%" y="-5%" width="110%" height="115%">
+        <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.4"/>
+      </filter>
+    </defs>
+    
+    <g filter="url(#sh_altar)">
+      <!-- Card -->
+      <rect x="0" y="12" width="420" height="198" rx="14" fill="url(#bg_altar)"/>
+      <rect x="0" y="12" width="420" height="198" rx="14" fill="url(#gl_altar)"/>
+      
+      <!-- Top accent bar -->
+      <rect x="0" y="12" width="420" height="3" rx="1.5" fill="url(#br_altar)" opacity="0.9"/>
+      
+      <!-- Border -->
+      <rect x="0.5" y="12.5" width="419" height="197" rx="14" 
+            stroke="#3B82F6" stroke-opacity="0.1" stroke-width="0.8" fill="none"/>
+      
+      <!-- Left edge accent -->
+      <rect x="0" y="15" width="2.5" height="24" rx="1.25" fill="#3B82F6" opacity="0.4"/>
+      
+      <!-- Name -->
+      <text x="24" y="46" font-family="'Inter', 'Segoe UI', sans-serif" font-size="18" 
+            fill="#EDF2F7" font-weight="700" letter-spacing="-0.3">altar.market</text>
+      
+      <!-- Pulsing dot + tagline -->
+      <circle cx="30" cy="68" r="3.5" fill="#3B82F6" opacity="0.85"/>
+      <circle cx="30" cy="68" r="3.5" fill="#3B82F6" opacity="0.25">
+        <animate attributeName="r" values="3.5;6.5;3.5" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;0;0.25" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="42" y="72" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" 
+            fill="#3B82F6" font-weight="500" letter-spacing="0.4">DeFi Execution Layer</text>
+      
+      <!-- Separator -->
+      <line x1="24" y1="84" x2="396" y2="84" 
+            stroke="#3B82F6" stroke-opacity="0.08" stroke-width="0.8"/>
+      
+      <!-- Description -->
+    <text x="24" y="104" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">AI-powered DeFi backend integrating Aave, Uniswap,</text>
+    <text x="24" y="122" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">1inch with real-time analytics via Telegram.</text>
+
+      <!-- Tech pills -->
+    <rect x="24.0" y="152" width="92" height="22" rx="11" fill="#3B82F6" fill-opacity="0.1" stroke="#3B82F6" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="70" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#3B82F6" text-anchor="middle" font-weight="500">TypeScript</text>
+    <rect x="123.0" y="152" width="63" height="22" rx="11" fill="#3B82F6" fill-opacity="0.1" stroke="#3B82F6" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="155" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#3B82F6" text-anchor="middle" font-weight="500">NestJS</text>
+    <rect x="193.2" y="152" width="92" height="22" rx="11" fill="#3B82F6" fill-opacity="0.1" stroke="#3B82F6" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="239" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#3B82F6" text-anchor="middle" font-weight="500">Flowise AI</text>
+    <rect x="292.2" y="152" width="49" height="22" rx="11" fill="#3B82F6" fill-opacity="0.1" stroke="#3B82F6" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="317" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#3B82F6" text-anchor="middle" font-weight="500">viem</text>
+    <rect x="24.0" y="178" width="85" height="22" rx="11" fill="#3B82F6" fill-opacity="0.1" stroke="#3B82F6" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="66" y="193" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#3B82F6" text-anchor="middle" font-weight="500">LangChain</text>
+    </g>
+
+
+    <!-- ═══ Illuminatibot (Harvey) ═══ -->
+    <defs>
+      <linearGradient id="bg_harvey" x1="444" y1="52" x2="864" y2="242" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#0C1425"/>
+        <stop offset="100%" stop-color="#111D32"/>
+      </linearGradient>
+      <linearGradient id="br_harvey" x1="444" y1="52" x2="864" y2="52" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#F97316"/>
+        <stop offset="100%" stop-color="#EF4444"/>
+      </linearGradient>
+      <radialGradient id="gl_harvey" cx="50%" cy="0%" r="70%">
+        <stop offset="0%" stop-color="#F97316" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="sh_harvey" x="-5%" y="-5%" width="110%" height="115%">
+        <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.4"/>
+      </filter>
+    </defs>
+    
+    <g filter="url(#sh_harvey)">
+      <!-- Card -->
+      <rect x="444" y="52" width="420" height="190" rx="14" fill="url(#bg_harvey)"/>
+      <rect x="444" y="52" width="420" height="190" rx="14" fill="url(#gl_harvey)"/>
+      
+      <!-- Top accent bar -->
+      <rect x="444" y="52" width="420" height="3" rx="1.5" fill="url(#br_harvey)" opacity="0.9"/>
+      
+      <!-- Border -->
+      <rect x="444.5" y="52.5" width="419" height="189" rx="14" 
+            stroke="#F97316" stroke-opacity="0.1" stroke-width="0.8" fill="none"/>
+      
+      <!-- Left edge accent -->
+      <rect x="444" y="55" width="2.5" height="24" rx="1.25" fill="#F97316" opacity="0.4"/>
+      
+      <!-- Name -->
+      <text x="468" y="86" font-family="'Inter', 'Segoe UI', sans-serif" font-size="18" 
+            fill="#EDF2F7" font-weight="700" letter-spacing="-0.3">Illuminatibot (Harvey)</text>
+      
+      <!-- Pulsing dot + tagline -->
+      <circle cx="474" cy="108" r="3.5" fill="#F97316" opacity="0.85"/>
+      <circle cx="474" cy="108" r="3.5" fill="#F97316" opacity="0.25">
+        <animate attributeName="r" values="3.5;6.5;3.5" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;0;0.25" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="486" y="112" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" 
+            fill="#F97316" font-weight="500" letter-spacing="0.4">Autonomous Solana Agent · 2.3M+ Followers</text>
+      
+      <!-- Separator -->
+      <line x1="468" y1="124" x2="840" y2="124" 
+            stroke="#F97316" stroke-opacity="0.08" stroke-width="0.8"/>
+      
+      <!-- Description -->
+    <text x="468" y="144" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">AI social agent parsing Solana mempool in real time,</text>
+    <text x="468" y="162" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">detecting whale moves and executing on-chain</text>
+    <text x="468" y="180" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">actions.</text>
+
+      <!-- Tech pills -->
+    <rect x="468.0" y="210" width="70" height="22" rx="11" fill="#F97316" fill-opacity="0.1" stroke="#F97316" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="503" y="225" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#F97316" text-anchor="middle" font-weight="500">ElizaOS</text>
+    <rect x="545.4" y="210" width="63" height="22" rx="11" fill="#F97316" fill-opacity="0.1" stroke="#F97316" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="577" y="225" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#F97316" text-anchor="middle" font-weight="500">Solana</text>
+    <rect x="615.6" y="210" width="92" height="22" rx="11" fill="#F97316" fill-opacity="0.1" stroke="#F97316" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="662" y="225" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#F97316" text-anchor="middle" font-weight="500">TypeScript</text>
+    <rect x="714.6" y="210" width="85" height="22" rx="11" fill="#F97316" fill-opacity="0.1" stroke="#F97316" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="757" y="225" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#F97316" text-anchor="middle" font-weight="500">Streaming</text>
+    </g>
+
+</svg>

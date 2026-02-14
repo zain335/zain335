@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="864" height="244" viewBox="0 0 864 244" fill="none">
+
+    <!-- ═══ PKIChain ═══ -->
+    <defs>
+      <linearGradient id="bg_pkichain" x1="0" y1="52" x2="420" y2="224" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#0C1425"/>
+        <stop offset="100%" stop-color="#111D32"/>
+      </linearGradient>
+      <linearGradient id="br_pkichain" x1="0" y1="52" x2="420" y2="52" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#EC4899"/>
+        <stop offset="100%" stop-color="#8B5CF6"/>
+      </linearGradient>
+      <radialGradient id="gl_pkichain" cx="50%" cy="0%" r="70%">
+        <stop offset="0%" stop-color="#EC4899" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#EC4899" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="sh_pkichain" x="-5%" y="-5%" width="110%" height="115%">
+        <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.4"/>
+      </filter>
+    </defs>
+    
+    <g filter="url(#sh_pkichain)">
+      <!-- Card -->
+      <rect x="0" y="52" width="420" height="172" rx="14" fill="url(#bg_pkichain)"/>
+      <rect x="0" y="52" width="420" height="172" rx="14" fill="url(#gl_pkichain)"/>
+      
+      <!-- Top accent bar -->
+      <rect x="0" y="52" width="420" height="3" rx="1.5" fill="url(#br_pkichain)" opacity="0.9"/>
+      
+      <!-- Border -->
+      <rect x="0.5" y="52.5" width="419" height="171" rx="14" 
+            stroke="#EC4899" stroke-opacity="0.1" stroke-width="0.8" fill="none"/>
+      
+      <!-- Left edge accent -->
+      <rect x="0" y="55" width="2.5" height="24" rx="1.25" fill="#EC4899" opacity="0.4"/>
+      
+      <!-- Name -->
+      <text x="24" y="86" font-family="'Inter', 'Segoe UI', sans-serif" font-size="18" 
+            fill="#EDF2F7" font-weight="700" letter-spacing="-0.3">PKIChain</text>
+      
+      <!-- Pulsing dot + tagline -->
+      <circle cx="30" cy="108" r="3.5" fill="#EC4899" opacity="0.85"/>
+      <circle cx="30" cy="108" r="3.5" fill="#EC4899" opacity="0.25">
+        <animate attributeName="r" values="3.5;6.5;3.5" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;0;0.25" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="42" y="112" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" 
+            fill="#EC4899" font-weight="500" letter-spacing="0.4">Decentralized SSL Certificates</text>
+      
+      <!-- Separator -->
+      <line x1="24" y1="124" x2="396" y2="124" 
+            stroke="#EC4899" stroke-opacity="0.08" stroke-width="0.8"/>
+      
+      <!-- Description -->
+    <text x="24" y="144" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">DApp for on-chain domain validation certificate</text>
+    <text x="24" y="162" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">issuance with formally verified smart contracts.</text>
+
+      <!-- Tech pills -->
+    <rect x="24.0" y="192" width="78" height="22" rx="11" fill="#EC4899" fill-opacity="0.1" stroke="#EC4899" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="63" y="207" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#EC4899" text-anchor="middle" font-weight="500">Solidity</text>
+    <rect x="108.6" y="192" width="63" height="22" rx="11" fill="#EC4899" fill-opacity="0.1" stroke="#EC4899" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="140" y="207" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#EC4899" text-anchor="middle" font-weight="500">Vue.js</text>
+    <rect x="178.8" y="192" width="92" height="22" rx="11" fill="#EC4899" fill-opacity="0.1" stroke="#EC4899" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="225" y="207" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#EC4899" text-anchor="middle" font-weight="500">Express.js</text>
+    <rect x="277.8" y="192" width="56" height="22" rx="11" fill="#EC4899" fill-opacity="0.1" stroke="#EC4899" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="306" y="207" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#EC4899" text-anchor="middle" font-weight="500">MySQL</text>
+    </g>
+
+
+    <!-- ═══ RajaaRani ═══ -->
+    <defs>
+      <linearGradient id="bg_rajaarani" x1="444" y1="12" x2="864" y2="210" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#0C1425"/>
+        <stop offset="100%" stop-color="#111D32"/>
+      </linearGradient>
+      <linearGradient id="br_rajaarani" x1="444" y1="12" x2="864" y2="12" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#EF4444"/>
+        <stop offset="100%" stop-color="#F97316"/>
+      </linearGradient>
+      <radialGradient id="gl_rajaarani" cx="50%" cy="0%" r="70%">
+        <stop offset="0%" stop-color="#EF4444" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#EF4444" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="sh_rajaarani" x="-5%" y="-5%" width="110%" height="115%">
+        <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.4"/>
+      </filter>
+    </defs>
+    
+    <g filter="url(#sh_rajaarani)">
+      <!-- Card -->
+      <rect x="444" y="12" width="420" height="198" rx="14" fill="url(#bg_rajaarani)"/>
+      <rect x="444" y="12" width="420" height="198" rx="14" fill="url(#gl_rajaarani)"/>
+      
+      <!-- Top accent bar -->
+      <rect x="444" y="12" width="420" height="3" rx="1.5" fill="url(#br_rajaarani)" opacity="0.9"/>
+      
+      <!-- Border -->
+      <rect x="444.5" y="12.5" width="419" height="197" rx="14" 
+            stroke="#EF4444" stroke-opacity="0.1" stroke-width="0.8" fill="none"/>
+      
+      <!-- Left edge accent -->
+      <rect x="444" y="15" width="2.5" height="24" rx="1.25" fill="#EF4444" opacity="0.4"/>
+      
+      <!-- Name -->
+      <text x="468" y="46" font-family="'Inter', 'Segoe UI', sans-serif" font-size="18" 
+            fill="#EDF2F7" font-weight="700" letter-spacing="-0.3">RajaaRani</text>
+      
+      <!-- Pulsing dot + tagline -->
+      <circle cx="474" cy="68" r="3.5" fill="#EF4444" opacity="0.85"/>
+      <circle cx="474" cy="68" r="3.5" fill="#EF4444" opacity="0.25">
+        <animate attributeName="r" values="3.5;6.5;3.5" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;0;0.25" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="486" y="72" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" 
+            fill="#EF4444" font-weight="500" letter-spacing="0.4">Matrimonial App Backend</text>
+      
+      <!-- Separator -->
+      <line x1="468" y1="84" x2="840" y2="84" 
+            stroke="#EF4444" stroke-opacity="0.08" stroke-width="0.8"/>
+      
+      <!-- Description -->
+    <text x="468" y="104" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">Microservices backend with Dockerized deployment on</text>
+    <text x="468" y="122" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12.5" fill="#8B9BB4" letter-spacing="0.15">AWS EC2 and Elasticsearch integration.</text>
+
+      <!-- Tech pills -->
+    <rect x="468.0" y="152" width="70" height="22" rx="11" fill="#EF4444" fill-opacity="0.1" stroke="#EF4444" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="503" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#EF4444" text-anchor="middle" font-weight="500">Node.js</text>
+    <rect x="545.4" y="152" width="63" height="22" rx="11" fill="#EF4444" fill-opacity="0.1" stroke="#EF4444" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="577" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#EF4444" text-anchor="middle" font-weight="500">Docker</text>
+    <rect x="615.6" y="152" width="70" height="22" rx="11" fill="#EF4444" fill-opacity="0.1" stroke="#EF4444" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="651" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#EF4444" text-anchor="middle" font-weight="500">AWS EC2</text>
+    <rect x="693.0" y="152" width="114" height="22" rx="11" fill="#EF4444" fill-opacity="0.1" stroke="#EF4444" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="750" y="167" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#EF4444" text-anchor="middle" font-weight="500">Elasticsearch</text>
+    <rect x="468.0" y="178" width="92" height="22" rx="11" fill="#EF4444" fill-opacity="0.1" stroke="#EF4444" stroke-opacity="0.25" stroke-width="0.8"/>
+    <text x="514" y="193" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" fill="#EF4444" text-anchor="middle" font-weight="500">PostgreSQL</text>
+    </g>
+
+</svg>
